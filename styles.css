@@ -144,10 +144,25 @@ header {
   margin: 0;
 }
 
+.RecipeImg {
+  height: 60vh;
+  width: 80vw;
+}
+
+.RecipeImg img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
 .Ingredients ul {
   list-style-position: inside;
 }
 
 .Directions ol {
   text-align: left;
+}
+
+.Directions li {
+  margin-bottom: 1rem;
 }
